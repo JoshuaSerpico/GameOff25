@@ -24,6 +24,7 @@ namespace Platformer.Player.Emotions
         public virtual void Exit()
         {
             emotionSystem.Player.ResetMovementModifier();
+            emotionSystem.Player.ResetErraticMovement();
         }
 
         public virtual void Update() { }
@@ -31,6 +32,11 @@ namespace Platformer.Player.Emotions
         protected void ApplyEffects()
         {
             emotionSystem.Player.SetMovementModifier(data.MovementSpeedModifier);
+
+            if (data.IsErratic)
+            {
+                emotionSystem.Player.EnableErraticMovement();
+            }
         }
     }
 }

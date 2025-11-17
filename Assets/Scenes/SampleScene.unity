@@ -895,7 +895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1207969794
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1174,6 +1174,8 @@ GameObject:
   - component: {fileID: 1730106286}
   - component: {fileID: 1730106285}
   - component: {fileID: 1730106287}
+  - component: {fileID: 1730106288}
+  - component: {fileID: 1730106289}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -1300,10 +1302,8 @@ MonoBehaviour:
   airAcceleration: 0.1
   coyoteTime: 0.2
   jumpBufferTime: 0.1
-  groundCheck: {fileID: 903143173}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 128
+  jitterIntensity: 0.25
+  groundChecker: {fileID: 1730106288}
 --- !u!70 &1730106286
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1356,8 +1356,41 @@ MonoBehaviour:
   emotionDataList:
   - {fileID: 11400000, guid: 18c8dbad46ba12240831e8bcc5b93b4b, type: 2}
   - {fileID: 11400000, guid: f1f810fa4dc7b534bb416ff23c061595, type: 2}
+  - {fileID: 11400000, guid: 9ff788b5b0ab3f4488917f51c60869a3, type: 2}
   channel: {fileID: 11400000, guid: 5529d3c5675d4f6438153baed87dfa4e, type: 2}
   player: {fileID: 1730106285}
+--- !u!114 &1730106288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730106280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5d9a47eff00c864db715ad6d9acb02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkCollider: {fileID: 903143173}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!114 &1730106289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730106280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547c1ef4f8b509d498aa8a07d6d033f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundChecker: {fileID: 1730106288}
+  emotionChannel: {fileID: 11400000, guid: 5529d3c5675d4f6438153baed87dfa4e, type: 2}
+  emotionType: 2
+  emotionFallThreshold: 5
 --- !u!1 &1938403964
 GameObject:
   m_ObjectHideFlags: 0

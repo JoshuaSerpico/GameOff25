@@ -65,22 +65,6 @@ namespace Platformer.Player.Emotions
             SetEmotion(type);
         }
 
-        //public void SetState<T>() where T : EmotionState
-        //{
-        //    currentState?.Exit();
-        //    currentState = states[typeof(T)];
-        //    currentState.Enter();
-        //    Debug.Log($"Emotion changed to: {typeof(T).Name}");
-        //}
-
-        //public EmotionState Current => currentState;
-
-        //public void StartTimer(float seconds, Action callback)
-        //{
-        //    if (timerRoutine != null) StopCoroutine(timerRoutine);
-        //    timerRoutine = StartCoroutine(Timer(seconds, callback));
-        //}
-
         private IEnumerator Timer(float t, Action cb)
         {
             yield return new WaitForSeconds(t);

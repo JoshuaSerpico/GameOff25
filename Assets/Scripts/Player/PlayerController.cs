@@ -20,23 +20,23 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float airAcceleration = 0.1f;
     [SerializeField] private float coyoteTime = 0.2f;
     [SerializeField] private float jumpBufferTime = 0.1f;
+    [SerializeField] private float jitterIntensity = 0.2f;
 
     [Header("Ground")]
-    [SerializeField] private BoxCollider2D groundCheck;
-    [SerializeField] private LayerMask groundMask;
+    [SerializeField] private GroundChecker groundChecker;
+    private bool IsGrounded => groundChecker.IsGrounded;
 
     private Rigidbody2D rb;
     private float horizontalInput;
-    private bool isGrounded;
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
-
-    // Emotion effects
     private float speedModifier = 1f;
-
+    private bool isErratic = false;
 
     public void SetMovementModifier(float modifier) => speedModifier = modifier;
     public void ResetMovementModifier() => speedModifier = 1f;
+    public void EnableErraticMovement() => isErratic = true;
+    public void ResetErraticMovement() => isErratic = false;
 
     private void Awake()
     {
@@ -47,7 +47,6 @@ public class PlayerController : MonoBehaviour
     {
         GetInput();
         UpdateJumpBuffer();
-        CheckGround();
         UpdateCoyoteTime();
         HandleJump();
     }
@@ -56,6 +55,15 @@ public class PlayerController : MonoBehaviour
     {
         MoveWithInput();
         ApplyFriction();
+        ApplyErraticMovement();
+    }
+
+    private void ApplyErraticMovement()
+    {
+        if (isErratic)
+        {
+            rb.linearVelocityX += UnityEngine.Random.Range(-jitterIntensity, jitterIntensity);
+        }
     }
 
     private void UpdateJumpBuffer()
@@ -72,7 +80,7 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateCoyoteTime()
     {
-        if (isGrounded)
+        if (IsGrounded)
         {
             coyoteTimeCounter = coyoteTime;
         }
@@ -91,7 +99,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Mathf.Abs(horizontalInput) > 0)
         {
-            float appliedAcceleration = isGrounded ? groundAcceleration : airAcceleration;
+            float appliedAcceleration = IsGrounded ? groundAcceleration : airAcceleration;
 
             float speed = groundSpeed * speedModifier;
 
@@ -122,14 +130,9 @@ public class PlayerController : MonoBehaviour
         transform.localScale = new Vector3(direction, 1, 1);
     }
 
-    private void CheckGround()
-    {    
-        isGrounded = Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max, groundMask).Length > 0;
-    }
-
     private void ApplyFriction()
     {
-        if (isGrounded && horizontalInput == 0 && rb.linearVelocityY <= 0)
+        if (IsGrounded && horizontalInput == 0 && rb.linearVelocityY <= 0)
         {
             rb.linearVelocity *= drag;
         }

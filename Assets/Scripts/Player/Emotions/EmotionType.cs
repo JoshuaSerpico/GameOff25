@@ -3,6 +3,7 @@
     public enum EmotionType
     {
         Neutral,
-        Sad
+        Sad,
+        Angry
     }
 }
