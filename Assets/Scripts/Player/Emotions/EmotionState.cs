@@ -1,18 +1,36 @@
-using UnityEngine;
-
 namespace Platformer.Player.Emotions
 {
-    public abstract class EmotionState
+    public class EmotionState
     {
-        protected EmotionSystem system;
+        protected EmotionSystem emotionSystem;
+        protected EmotionData data;
 
-        public EmotionState(EmotionSystem system) => this.system = system;
+        public EmotionState(EmotionSystem system, EmotionData data)
+        {
+            this.emotionSystem = system;
+            this.data = data;
+        }
 
-        public virtual void Enter() { }
-        public virtual void Exit() { }
+        public virtual void Enter()
+        {
+            ApplyEffects();
+
+            if (data.Duration > 0)
+            {
+                emotionSystem.StartTimer(data.Duration, () => emotionSystem.SetNeutral());
+            }
+        }
+
+        public virtual void Exit()
+        {
+            emotionSystem.Player.ResetMovementModifier();
+        }
+
         public virtual void Update() { }
 
-        public virtual float SpeedMultiplier => 1f;
-        public virtual Vector3 MovementOffset(Vector3 input) => input;
+        protected void ApplyEffects()
+        {
+            emotionSystem.Player.SetMovementModifier(data.MovementSpeedModifier);
+        }
     }
 }

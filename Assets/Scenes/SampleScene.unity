@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0702c6a3ce5b8064e862ed0ba004c8f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emotionType: 2
+  emotionType: 1
   channel: {fileID: 11400000, guid: 5529d3c5675d4f6438153baed87dfa4e, type: 2}
 --- !u!1 &1626299758
 GameObject:
@@ -1353,7 +1353,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d48a4cf3e7a13c944b753ac409314213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  emotionDataList:
+  - {fileID: 11400000, guid: 18c8dbad46ba12240831e8bcc5b93b4b, type: 2}
+  - {fileID: 11400000, guid: f1f810fa4dc7b534bb416ff23c061595, type: 2}
   channel: {fileID: 11400000, guid: 5529d3c5675d4f6438153baed87dfa4e, type: 2}
+  player: {fileID: 1730106285}
 --- !u!1 &1938403964
 GameObject:
   m_ObjectHideFlags: 0

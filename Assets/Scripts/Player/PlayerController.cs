@@ -31,6 +31,13 @@ public class PlayerController : MonoBehaviour
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
 
+    // Emotion effects
+    private float speedModifier = 1f;
+
+
+    public void SetMovementModifier(float modifier) => speedModifier = modifier;
+    public void ResetMovementModifier() => speedModifier = 1f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -86,7 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             float appliedAcceleration = isGrounded ? groundAcceleration : airAcceleration;
 
-            float speed = groundSpeed * emotionSystem.Current.SpeedMultiplier;
+            float speed = groundSpeed * speedModifier;
 
             rb.linearVelocityX = Mathf.Lerp(rb.linearVelocityX, horizontalInput * speed, appliedAcceleration);
 

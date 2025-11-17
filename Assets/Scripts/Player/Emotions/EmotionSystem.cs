@@ -7,25 +7,24 @@ namespace Platformer.Player.Emotions
 {
     public class EmotionSystem : MonoBehaviour
     {
+        [SerializeField] private List<EmotionData> emotionDataList;
         [SerializeField] private EmotionEventChannel channel;
-        
+        [SerializeField] private PlayerController player;
+
         private EmotionState currentState;
-        private Dictionary<Type, EmotionState> states = new();
+        private Dictionary<EmotionType, EmotionState> states = new();
         private Coroutine timerRoutine;
+
+        public PlayerController Player => player;
 
         private void Awake()
         {
-            var stateTypes = typeof(EmotionState).Assembly.GetTypes();
-            foreach (var t in stateTypes)
+            foreach (var data in emotionDataList)
             {
-                if (t.IsSubclassOf(typeof(EmotionState)) && !t.IsAbstract)
-                {
-                    var state = (EmotionState)Activator.CreateInstance(t, new object[] { this });
-                    states[t] = state;
-                }
+                states[data.Type] = new EmotionState(this, data);
             }
 
-            SetState<NeutralState>();
+            SetNeutral();
         }
 
         private void OnEnable()
@@ -38,30 +37,49 @@ namespace Platformer.Player.Emotions
             channel.OnEventRaised -= OnEmotionTriggered;
         }
 
-        private void OnEmotionTriggered(EmotionType type)
+        public void SetEmotion(EmotionType type)
         {
-            switch (type)
+            if (!states.ContainsKey(type))
             {
-                case EmotionType.Neutral: SetState<NeutralState>(); break;
-                case EmotionType.Sad: SetState<SadState>(); break;
+                Debug.LogWarning($"Emotion {type} not found!");
+                return;
             }
-        }
 
-        public void SetState<T>() where T : EmotionState
-        {
             currentState?.Exit();
-            currentState = states[typeof(T)];
+            currentState = states[type];
             currentState.Enter();
-            Debug.Log($"Emotion changed to: {typeof(T).Name}");
+
+            Debug.Log($"Emotion changed to {type}");
         }
 
-        public EmotionState Current => currentState;
+        public void SetNeutral() => SetEmotion(EmotionType.Neutral);
 
         public void StartTimer(float seconds, Action callback)
         {
             if (timerRoutine != null) StopCoroutine(timerRoutine);
             timerRoutine = StartCoroutine(Timer(seconds, callback));
         }
+
+        private void OnEmotionTriggered(EmotionType type)
+        {
+            SetEmotion(type);
+        }
+
+        //public void SetState<T>() where T : EmotionState
+        //{
+        //    currentState?.Exit();
+        //    currentState = states[typeof(T)];
+        //    currentState.Enter();
+        //    Debug.Log($"Emotion changed to: {typeof(T).Name}");
+        //}
+
+        //public EmotionState Current => currentState;
+
+        //public void StartTimer(float seconds, Action callback)
+        //{
+        //    if (timerRoutine != null) StopCoroutine(timerRoutine);
+        //    timerRoutine = StartCoroutine(Timer(seconds, callback));
+        //}
 
         private IEnumerator Timer(float t, Action cb)
         {
