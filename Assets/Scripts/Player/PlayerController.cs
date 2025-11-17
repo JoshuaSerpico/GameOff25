@@ -1,3 +1,4 @@
+using Platformer.Player.Emotions;
 using System;
 using UnityEngine;
 
@@ -5,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     private const string JumpButton = "Jump";
     private const string HorizontalAxis = "Horizontal";
+
+    [SerializeField] private EmotionSystem emotionSystem;
 
     [Header("Movement Settings")]
     [SerializeField] private float groundSpeed = 5f;
@@ -83,7 +86,9 @@ public class PlayerController : MonoBehaviour
         {
             float appliedAcceleration = isGrounded ? groundAcceleration : airAcceleration;
 
-            rb.linearVelocityX = Mathf.Lerp(rb.linearVelocityX, horizontalInput * groundSpeed, appliedAcceleration);
+            float speed = groundSpeed * emotionSystem.Current.SpeedMultiplier;
+
+            rb.linearVelocityX = Mathf.Lerp(rb.linearVelocityX, horizontalInput * speed, appliedAcceleration);
 
             UpdateDirection();
         }
