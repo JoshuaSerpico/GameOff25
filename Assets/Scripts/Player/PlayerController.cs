@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float airAcceleration = 0.1f;
     [SerializeField] private float coyoteTime = 0.2f;
     [SerializeField] private float jumpBufferTime = 0.1f;
+    [SerializeField] private float idleBufferTime = 0.1f;
+    //How long until character should register as Idling; helps prevent character from swapping to idle animation between changing directions
+    [SerializeField] private float idleTime = 5;
     [SerializeField] private float jitterIntensity = 0.2f;
 
     [Header("Ground")]
@@ -27,7 +30,9 @@ public class PlayerController : MonoBehaviour
     private bool IsGrounded => groundChecker.IsGrounded;
 
     private Rigidbody2D rb;
+    private Animator animator;
     private float horizontalInput;
+    private float idleTimeCounter;
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
     private float speedModifier = 1f;
@@ -41,6 +46,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -49,6 +55,7 @@ public class PlayerController : MonoBehaviour
         UpdateJumpBuffer();
         UpdateCoyoteTime();
         HandleJump();
+        UpdateAnimations();
     }
 
     private void FixedUpdate()
@@ -90,6 +97,44 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void UpdateAnimations()
+    {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+        //Animation Parameters: Grounded, Moving
+
+        animator.SetBool("Grounded", IsGrounded);
+
+        if (Math.Abs(rb.linearVelocityX) < 0.6) idleTimeCounter += idleBufferTime;
+
+        if (Math.Abs(rb.linearVelocityX) < 0.6 && idleTimeCounter > idleTime)
+        {
+            animator.SetBool("Moving", false);
+            idleTimeCounter = 0;
+        }
+        else if (Math.Abs(rb.linearVelocityX) > 0.6)
+        {
+            animator.SetBool("Moving", true);
+            idleTimeCounter = 0;
+        }
+
+
+        if (IsGrounded && Math.Abs(rb.linearVelocityX) < 0.5 && !stateInfo.IsName("MC_Idle"))
+        {
+            //animator.SetTrigger("TrIdle");
+        }
+
+        if (IsGrounded && Math.Abs(rb.linearVelocityX) >= 1 && !stateInfo.IsName("MC_Run_Faster"))
+        {
+            //animator.SetTrigger("TrRun");
+        }
+
+        if (!IsGrounded && !stateInfo.IsName("MC_Jump"))
+        {
+            //animator.SetTrigger("TrJump");
+        }
+    }
+
     private void GetInput()
     {
         horizontalInput = Input.GetAxisRaw(HorizontalAxis);
@@ -111,6 +156,7 @@ public class PlayerController : MonoBehaviour
 
     private void HandleJump()
     {
+
         if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
         {
             rb.linearVelocityY = jumpSpeed;

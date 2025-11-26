@@ -2783,6 +2783,8 @@ MonoBehaviour:
   airAcceleration: 0.1
   coyoteTime: 0.1
   jumpBufferTime: 0.1
+  idleBufferTime: 0.1
+  idleTime: 5
   jitterIntensity: 0.2
   groundChecker: {fileID: 1200912628}
 --- !u!1 &1227468755
@@ -4705,7 +4707,7 @@ Transform:
   m_GameObject: {fileID: 3934313849519043161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0038021668, w: 0.99999285}
-  m_LocalPosition: {x: -0.10252561, y: -0.1846919, z: 0.01012947}
+  m_LocalPosition: {x: -0.1025256, y: -0.1846919, z: 0.01012947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6321,13 +6323,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emotionSystem: {fileID: 0}
   groundSpeed: 5
-  jumpSpeed: 5
+  jumpSpeed: 7
   jumpHoldMultiplier: 0.5
-  drag: 0.9
+  drag: 0.7
   groundAcceleration: 0.23
   airAcceleration: 0.1
   coyoteTime: 0.1
   jumpBufferTime: 0.1
+  idleBufferTime: 0.1
+  idleTime: 0.3
   jitterIntensity: 0.2
   groundChecker: {fileID: 2503042826481039363}
 --- !u!212 &7242713095928382413
