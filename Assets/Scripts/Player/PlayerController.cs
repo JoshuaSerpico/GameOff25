@@ -99,7 +99,6 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimations()
     {
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
         //Animation Parameters: Grounded, Moving
 
@@ -116,22 +115,6 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Moving", true);
             idleTimeCounter = 0;
-        }
-
-
-        if (IsGrounded && Math.Abs(rb.linearVelocityX) < 0.5 && !stateInfo.IsName("MC_Idle"))
-        {
-            //animator.SetTrigger("TrIdle");
-        }
-
-        if (IsGrounded && Math.Abs(rb.linearVelocityX) >= 1 && !stateInfo.IsName("MC_Run_Faster"))
-        {
-            //animator.SetTrigger("TrRun");
-        }
-
-        if (!IsGrounded && !stateInfo.IsName("MC_Jump"))
-        {
-            //animator.SetTrigger("TrJump");
         }
     }
 

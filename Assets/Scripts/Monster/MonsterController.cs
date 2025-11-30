@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class EnemyController : MonoBehaviour
 {
@@ -42,8 +43,6 @@ public class EnemyController : MonoBehaviour
 
     private void UpdateAnimations()
     {
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-
         //Animation Parameters: Moving
 
         if (Math.Abs(rb.linearVelocityX) < 0.6) idleTimeCounter += idleBufferTime;
@@ -94,7 +93,8 @@ public class EnemyController : MonoBehaviour
 
     private void UpdateDirection()
     {
-        float direction = Mathf.Sign(rb.linearVelocityX);
+        float direction = Mathf.Sign(horizontalInput);
+        Debug.Log(direction);
         transform.localScale = new Vector3(direction, 1, 1);
     }
 
