@@ -1105,6 +1105,18 @@ PrefabInstance:
       value: VeryLongGround1
       objectReference: {fileID: 0}
     - target: {fileID: 6023972567638927817, guid: 3188877368c7f5a45b75ba66bfad692a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8773585
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023972567638927817, guid: 3188877368c7f5a45b75ba66bfad692a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75129396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023972567638927817, guid: 3188877368c7f5a45b75ba66bfad692a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7407885
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023972567638927817, guid: 3188877368c7f5a45b75ba66bfad692a, type: 3}
       propertyPath: m_LocalAABB.m_Center.x
       value: -20.24517
       objectReference: {fileID: 0}
