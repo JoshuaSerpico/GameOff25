@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5890977010762004581}
   - component: {fileID: 7288294593701168268}
-  - component: {fileID: 3873332554214831266}
   - component: {fileID: 7119416540957886062}
   - component: {fileID: 1773582436526668545}
+  - component: {fileID: 7859300306095314685}
   m_Layer: 0
   m_Name: Snail
   m_TagString: Untagged
@@ -63,8 +63,48 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &3873332554214831266
-BoxCollider2D:
+--- !u!114 &7119416540957886062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430887814696552270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa4737e2b5938d41946ae110663f411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundSpeed: 1
+  drag: 0.9
+  groundAcceleration: 0.23
+  idleBufferTime: 0.1
+  idleTime: 5
+  movementDecisionCooldown: 4
+--- !u!95 &1773582436526668545
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430887814696552270}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47e1e3915ecc8604ca85c95c5793af9a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!60 &7859300306095314685
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,7 +137,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0075957775, y: 0.77292293}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -107,48 +147,18 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5960512, y: 1.5408524}
-  m_EdgeRadius: 0
---- !u!114 &7119416540957886062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430887814696552270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fa4737e2b5938d41946ae110663f411, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundSpeed: 1
-  drag: 0.9
-  groundAcceleration: 0.23
-  idleBufferTime: 0.1
-  idleTime: 5
-  movementDecisionCooldown: 4
---- !u!95 &1773582436526668545
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430887814696552270}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3626bd538ff6b3a4d962a15addbb4d71, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.7123785, y: 1.513712}
+      - {x: 0.49703264, y: 1.2102182}
+      - {x: 0.115126565, y: 1.086345}
+      - {x: -0.46665823, y: 1.1147916}
+      - {x: -1.0230107, y: 0.55366063}
+      - {x: -1.318931, y: 0.040156603}
+      - {x: 0.7892568, y: 0.040041447}
+      - {x: 1.0776213, y: 0.39106798}
+      - {x: 1.2495662, y: 1.5149963}
+  m_UseDelaunayMesh: 0
 --- !u!1 &3711117318009768267
 GameObject:
   m_ObjectHideFlags: 0

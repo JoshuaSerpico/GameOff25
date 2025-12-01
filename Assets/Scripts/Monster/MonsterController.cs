@@ -100,9 +100,9 @@ public class EnemyController : MonoBehaviour
 
     private void ApplyFriction()
     {
-        if (horizontalInput == 0 && rb.linearVelocityY <= 0)
+        if (horizontalInput == 0)
         {
-            rb.linearVelocity *= drag;
+            rb.linearVelocityX *= drag;
         }
     }
 }

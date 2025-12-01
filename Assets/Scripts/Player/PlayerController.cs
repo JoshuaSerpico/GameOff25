@@ -103,6 +103,7 @@ public class PlayerController : MonoBehaviour
         //Animation Parameters: Grounded, Moving
 
         animator.SetBool("Grounded", IsGrounded);
+        Debug.Log("Linear velocityY:" + rb.linearVelocityY);
 
         if (Math.Abs(rb.linearVelocityX) < 0.6) idleTimeCounter += idleBufferTime;
 
@@ -161,9 +162,9 @@ public class PlayerController : MonoBehaviour
 
     private void ApplyFriction()
     {
-        if (IsGrounded && horizontalInput == 0 && rb.linearVelocityY <= 0)
+        if (IsGrounded && horizontalInput == 0)
         {
-            rb.linearVelocity *= drag;
+            rb.linearVelocityX *= drag;
         }
     }
 }
