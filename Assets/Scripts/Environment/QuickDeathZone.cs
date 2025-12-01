@@ -14,6 +14,7 @@ public class QuickDeathZone : MonoBehaviour
         {
             // Reset player's position
             other.transform.position = resetPosition;
+            other.attachedRigidbody.linearVelocity = Vector2.zero;
         }
     }
 }
