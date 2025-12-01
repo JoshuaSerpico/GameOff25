@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
 public class GroundChecker : MonoBehaviour
 {
-    [SerializeField] private CapsuleCollider2D checkCollider;
+    [SerializeField] private Collider2D checkCollider;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float reduceColliderCheckArea;
 
@@ -16,6 +15,11 @@ public class GroundChecker : MonoBehaviour
 
     private void CheckGround()
     {
-        IsGrounded = Physics2D.OverlapAreaAll(checkCollider.bounds.min, checkCollider.bounds.max - new Vector3(0, reduceColliderCheckArea, 0), groundMask).Length > 0;
+        IsGrounded = Physics2D.OverlapBox(
+            checkCollider.bounds.center,
+            checkCollider.bounds.size - new Vector3(0, reduceColliderCheckArea, 0),
+            0,
+            groundMask
+        );
     }
 }
