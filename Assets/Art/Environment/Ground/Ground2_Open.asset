@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ground2_Open
   m_EditorClassIdentifier: 
   m_Angles:
-  - m_Start: -39
+  - m_Start: -313
     m_End: 47
     m_Order: 0
     m_Sprites:
