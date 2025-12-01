@@ -5,8 +5,7 @@ namespace Platformer.Player.Emotions
     public class FallDetector : MonoBehaviour
     {
         [SerializeField] private GroundChecker groundChecker;
-        [SerializeField] private EmotionEventChannel emotionChannel;
-        [SerializeField] private EmotionType emotionType = EmotionType.Angry;
+        [SerializeField] private EmotionSystem emotionSystem;
         [SerializeField] private float emotionFallThreshold = 3f;
 
         private bool IsGrounded => groundChecker.IsGrounded;
@@ -37,7 +36,15 @@ namespace Platformer.Player.Emotions
 
                 if (fallDistance >= emotionFallThreshold)
                 {
-                    emotionChannel.RaiseEvent(emotionType);
+                    EmotionInfluence influence = new EmotionInfluence
+                    {
+                        dValence = -0.3f,  // falls make the player sad/angry
+                        dArousal = +0.5f,
+                        dControl = -0.2f,
+                        dConnection = 0f
+                    };
+                    if (emotionSystem != null)
+                        emotionSystem.ApplyInfluence(influence);
                 }
             }
         }

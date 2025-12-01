@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
         //Animation Parameters: Grounded, Moving
 
         animator.SetBool("Grounded", IsGrounded);
-        Debug.Log("Linear velocityY:" + rb.linearVelocityY);
+        //Debug.Log("Linear velocityY:" + rb.linearVelocityY);
 
         if (Math.Abs(rb.linearVelocityX) < 0.6) idleTimeCounter += idleBufferTime;
 
