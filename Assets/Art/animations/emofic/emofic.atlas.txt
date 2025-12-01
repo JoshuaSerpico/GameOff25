@@ -1,0 +1,58 @@
+emofic.png
+size:1980,1076
+filter:Linear,Linear
+Capa de pintura 17
+bounds:1924,612,40,40
+offsets:2,2,44,44
+Capa de pintura 18
+bounds:1807,324,184,132
+rotate:90
+Capa de pintura 18 копия
+bounds:1738,510,184,132
+Copia de sad
+bounds:658,452,43,22
+offsets:1,3,48,28
+angry
+bounds:1738,644,47,29
+offsets:2,1,52,32
+happy
+bounds:609,449,47,25
+offsets:2,1,52,28
+puff/Puff 00000
+bounds:1738,730,57,53
+offsets:496,383,1105,879
+puff/Puff 00001
+bounds:1738,675,57,53
+offsets:496,383,1105,879
+puff/Puff 00002
+bounds:1807,654,165,129
+offsets:443,346,1105,879
+puff/Puff 00003
+bounds:1738,785,288,238
+offsets:363,297,1105,879
+rotate:90
+puff/Puff 00004
+bounds:952,109,365,329
+offsets:334,242,1105,879
+rotate:90
+puff/Puff 00005
+bounds:2,2,473,445
+offsets:286,187,1105,879
+puff/Puff 00006
+bounds:477,2,473,445
+offsets:286,187,1105,879
+puff/Puff 00007
+bounds:1283,3,522,494
+offsets:268,163,1105,879
+puff/Puff 00008
+bounds:1187,499,574,549
+offsets:247,144,1105,879
+rotate:90
+puff/Puff 00009
+bounds:609,476,597,576
+offsets:238,131,1105,879
+rotate:90
+puff/Puff 00010
+bounds:2,449,624,605
+offsets:228,114,1105,879
+rotate:90

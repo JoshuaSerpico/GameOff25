@@ -1,0 +1,4641 @@
+fileFormatVersion: 2
+guid: 2c0c360a013aeed43927f977962aaa0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6824016238274474226
+    second: rockthing_0
+  - first:
+      213: -1177762698697067768
+    second: rockthing_1
+  - first:
+      213: 5383133624832052326
+    second: rockthing_2
+  - first:
+      213: 871904885794472585
+    second: rockthing_3
+  - first:
+      213: -6563302064580310452
+    second: rockthing_4
+  - first:
+      213: 1271358576674630390
+    second: rockthing_5
+  - first:
+      213: -8438985346626746292
+    second: rockthing_6
+  - first:
+      213: -5691830781120473329
+    second: rockthing_7
+  - first:
+      213: 3443707482154237147
+    second: rockthing_8
+  - first:
+      213: 4836714667485261192
+    second: rockthing_9
+  - first:
+      213: -1937724407682040143
+    second: rockthing_10
+  - first:
+      213: 309097235673074297
+    second: rockthing_11
+  - first:
+      213: -468747613914127081
+    second: rockthing_12
+  - first:
+      213: 2839859301902141371
+    second: rockthing_13
+  - first:
+      213: 482863888395721261
+    second: rockthing_14
+  - first:
+      213: 7841670506248046039
+    second: rockthing_15
+  - first:
+      213: -529624769470569818
+    second: rockthing_16
+  - first:
+      213: -539062970316860737
+    second: rockthing_17
+  - first:
+      213: 7644468392332135017
+    second: rockthing_18
+  - first:
+      213: -151911504864760868
+    second: rockthing_19
+  - first:
+      213: 5400849263875518247
+    second: rockthing_20
+  - first:
+      213: 5429214272019249201
+    second: rockthing_21
+  - first:
+      213: 3574687567120925332
+    second: rockthing_22
+  - first:
+      213: -9149349365842302184
+    second: rockthing_23
+  - first:
+      213: -5695878032748637626
+    second: rockthing_24
+  - first:
+      213: -6811382557399761685
+    second: rockthing_25
+  - first:
+      213: 2464684290561815467
+    second: rockthing_26
+  - first:
+      213: 4377698045656253724
+    second: rockthing_27
+  - first:
+      213: 541953283172792728
+    second: rockthing_28
+  - first:
+      213: -7638594218291572019
+    second: rockthing_29
+  - first:
+      213: 3832308878573526661
+    second: rockthing_30
+  - first:
+      213: -3198978776183498114
+    second: rockthing_31
+  - first:
+      213: -5728876308900925549
+    second: rockthing_32
+  - first:
+      213: 5617089685536757112
+    second: rockthing_33
+  - first:
+      213: 663525346017576172
+    second: rockthing_34
+  - first:
+      213: 3521840194221508947
+    second: rockthing_35
+  - first:
+      213: 189935780717586007
+    second: rockthing_36
+  - first:
+      213: -1995494755424594823
+    second: rockthing_37
+  - first:
+      213: 1512694547797342981
+    second: rockthing_38
+  - first:
+      213: -8391513362038548201
+    second: rockthing_39
+  - first:
+      213: -999016340092186401
+    second: rockthing_40
+  - first:
+      213: 1896984302400720166
+    second: rockthing_41
+  - first:
+      213: 7673837565546224247
+    second: rockthing_42
+  - first:
+      213: -32372677767773744
+    second: rockthing_43
+  - first:
+      213: 429996674303631774
+    second: rockthing_44
+  - first:
+      213: 9019884536074568738
+    second: rockthing_45
+  - first:
+      213: 5467602076011174598
+    second: rockthing_46
+  - first:
+      213: 6657569769620042302
+    second: rockthing_47
+  - first:
+      213: -4426928965131872479
+    second: rockthing_48
+  - first:
+      213: -5468045141583981502
+    second: rockthing_49
+  - first:
+      213: -7687975152109571052
+    second: rockthing_50
+  - first:
+      213: 4252740542882707247
+    second: rockthing_51
+  - first:
+      213: -4327194102054482603
+    second: rockthing_52
+  - first:
+      213: 4685206769173742921
+    second: rockthing_53
+  - first:
+      213: 8878382238584158009
+    second: rockthing_54
+  - first:
+      213: 997085224881683084
+    second: rockthing_55
+  - first:
+      213: 6430066315363297654
+    second: rockthing_56
+  - first:
+      213: 6102409813342142160
+    second: rockthing_57
+  - first:
+      213: -3187144431446130284
+    second: rockthing_58
+  - first:
+      213: -8750805359563787470
+    second: rockthing_59
+  - first:
+      213: 4223125245515862170
+    second: rockthing_60
+  - first:
+      213: -8941827480576380930
+    second: rockthing_61
+  - first:
+      213: -1907335820987062977
+    second: rockthing_62
+  - first:
+      213: 5777962946497462126
+    second: rockthing_63
+  - first:
+      213: 4496663654056989501
+    second: rockthing_64
+  - first:
+      213: 985471999830044062
+    second: rockthing_65
+  - first:
+      213: 1665479460417269489
+    second: rockthing_66
+  - first:
+      213: -5372296760927779450
+    second: rockthing_67
+  - first:
+      213: -6920780234099160571
+    second: rockthing_68
+  - first:
+      213: 4522689222810062743
+    second: rockthing_69
+  - first:
+      213: -6682704815741135692
+    second: rockthing_70
+  - first:
+      213: 8771823711930300156
+    second: rockthing_71
+  - first:
+      213: -7475326450460953696
+    second: rockthing_72
+  - first:
+      213: 1020615652844668221
+    second: rockthing_73
+  - first:
+      213: -2263290467526619669
+    second: rockthing_74
+  - first:
+      213: 6283963457978741139
+    second: rockthing_75
+  - first:
+      213: -2874157977263332617
+    second: rockthing_76
+  - first:
+      213: 1179322959594105977
+    second: rockthing_77
+  - first:
+      213: 5809826729769486139
+    second: rockthing_78
+  - first:
+      213: -7521247244756148358
+    second: rockthing_79
+  - first:
+      213: 1283392010114131713
+    second: rockthing_80
+  - first:
+      213: -6215065649090576661
+    second: rockthing_81
+  - first:
+      213: -607591669121919215
+    second: rockthing_82
+  - first:
+      213: 8649302300725501446
+    second: rockthing_83
+  - first:
+      213: 1081516168465250945
+    second: rockthing_84
+  - first:
+      213: 8385607175460221405
+    second: rockthing_85
+  - first:
+      213: -5914863186020045716
+    second: rockthing_86
+  - first:
+      213: -9199981325085903254
+    second: rockthing_87
+  - first:
+      213: 6893314981368132682
+    second: rockthing_88
+  - first:
+      213: 6129717298304549221
+    second: rockthing_89
+  - first:
+      213: -1155211641845376685
+    second: rockthing_90
+  - first:
+      213: -6311804009877510963
+    second: rockthing_91
+  - first:
+      213: 1440192225567920434
+    second: rockthing_92
+  - first:
+      213: -9064013586696416127
+    second: rockthing_93
+  - first:
+      213: 556843956599227489
+    second: rockthing_94
+  - first:
+      213: -1560624204737174981
+    second: rockthing_95
+  - first:
+      213: 2733364191644157436
+    second: rockthing_96
+  - first:
+      213: -592793014158816437
+    second: rockthing_97
+  - first:
+      213: -509328684584078980
+    second: rockthing_98
+  - first:
+      213: 1367167107954114881
+    second: rockthing_99
+  - first:
+      213: -6379493936272416842
+    second: rockthing_100
+  - first:
+      213: 2108105440552969792
+    second: rockthing_101
+  - first:
+      213: -633400952111675469
+    second: rockthing_102
+  - first:
+      213: -2749051113337159787
+    second: rockthing_103
+  - first:
+      213: -4876232519267352070
+    second: rockthing_104
+  - first:
+      213: 8060903063366686044
+    second: rockthing_105
+  - first:
+      213: -1004136666694185733
+    second: rockthing_106
+  - first:
+      213: 5721972646676305845
+    second: rockthing_107
+  - first:
+      213: 5725990568127803501
+    second: rockthing_108
+  - first:
+      213: -2103240830666129465
+    second: rockthing_109
+  - first:
+      213: 100060578819195796
+    second: rockthing_110
+  - first:
+      213: -7800145615218387614
+    second: rockthing_111
+  - first:
+      213: -764242632266399283
+    second: rockthing_112
+  - first:
+      213: 1647271638290286641
+    second: rockthing_113
+  - first:
+      213: 5207597072502000341
+    second: rockthing_114
+  - first:
+      213: 469575542142945136
+    second: rockthing_115
+  - first:
+      213: 5108060352579777877
+    second: rockthing_116
+  - first:
+      213: -7748367261175474274
+    second: rockthing_117
+  - first:
+      213: -5587683864207118568
+    second: rockthing_118
+  - first:
+      213: -100142712978015215
+    second: rockthing_119
+  - first:
+      213: 8865278582866212779
+    second: rockthing_120
+  - first:
+      213: 1435072097995419843
+    second: rockthing_121
+  - first:
+      213: -4877204636996478016
+    second: rockthing_122
+  - first:
+      213: 3977019949841361031
+    second: rockthing_123
+  - first:
+      213: -2157150062396408379
+    second: rockthing_124
+  - first:
+      213: 9155877649069422809
+    second: rockthing_125
+  - first:
+      213: 3244832463104905213
+    second: rockthing_126
+  - first:
+      213: 2339766993549074184
+    second: rockthing_127
+  - first:
+      213: 4010113851776669462
+    second: rockthing_128
+  - first:
+      213: 24817192627517382
+    second: rockthing_129
+  - first:
+      213: 3882435315298498028
+    second: rockthing_130
+  - first:
+      213: 831443235383083140
+    second: rockthing_131
+  - first:
+      213: -8386141419753536597
+    second: rockthing_132
+  - first:
+      213: 3550030221726013512
+    second: rockthing_133
+  - first:
+      213: 1878356064933263413
+    second: rockthing_134
+  - first:
+      213: 7173931346413423942
+    second: rockthing_135
+  - first:
+      213: -2815867396425016093
+    second: rockthing_136
+  - first:
+      213: 5586488147397112733
+    second: rockthing_137
+  - first:
+      213: 2977096446300177656
+    second: rockthing_138
+  - first:
+      213: -5880371987557991190
+    second: rockthing_139
+  - first:
+      213: -6700821664406791932
+    second: rockthing_140
+  - first:
+      213: 8252122726997323390
+    second: rockthing_141
+  - first:
+      213: 7474721446838816874
+    second: rockthing_142
+  - first:
+      213: -4662559952336317601
+    second: rockthing_143
+  - first:
+      213: 2709889484769217420
+    second: rockthing_144
+  - first:
+      213: -730104702106752556
+    second: rockthing_145
+  - first:
+      213: 7665242407463561620
+    second: rockthing_146
+  - first:
+      213: -2207467198083626304
+    second: rockthing_147
+  - first:
+      213: -7184234912430409549
+    second: rockthing_148
+  - first:
+      213: 3239450729024279676
+    second: rockthing_149
+  - first:
+      213: -8078846676306669050
+    second: rockthing_150
+  - first:
+      213: -597763979038961083
+    second: rockthing_151
+  - first:
+      213: -1267970053505682563
+    second: rockthing_152
+  - first:
+      213: 8275225396838063875
+    second: rockthing_153
+  - first:
+      213: 8394799087415226023
+    second: rockthing_154
+  - first:
+      213: 9162907474856772474
+    second: rockthing_155
+  - first:
+      213: -6929754218343707652
+    second: rockthing_156
+  - first:
+      213: -8179017201922289556
+    second: rockthing_157
+  - first:
+      213: -2323442474485399870
+    second: rockthing_158
+  - first:
+      213: 8751509500672106941
+    second: rockthing_159
+  - first:
+      213: -744487757954769911
+    second: rockthing_160
+  - first:
+      213: -5403208974745665092
+    second: rockthing_161
+  - first:
+      213: -3157095374483660466
+    second: rockthing_162
+  - first:
+      213: -200373923127555416
+    second: rockthing_163
+  - first:
+      213: 2623732780023714097
+    second: rockthing_164
+  - first:
+      213: -2201626299563985518
+    second: rockthing_165
+  - first:
+      213: -4809709516950810891
+    second: rockthing_166
+  - first:
+      213: 5741954239643548558
+    second: rockthing_167
+  - first:
+      213: -2032277531284662047
+    second: rockthing_168
+  - first:
+      213: 8490592009992375904
+    second: rockthing_169
+  - first:
+      213: 4004293419492698575
+    second: rockthing_170
+  - first:
+      213: -1308446297587911754
+    second: rockthing_171
+  - first:
+      213: -6090581883694417828
+    second: rockthing_172
+  - first:
+      213: -280635494112725117
+    second: rockthing_173
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rockthing_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1078
+        width: 184
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0f8df0d96c3be50800000000000000
+      internalID: 6824016238274474226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1562
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803b47ac01fb7afe0800000000000000
+      internalID: -1177762698697067768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1577
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c439eb28bb4ba40800000000000000
+      internalID: 5383133624832052326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1562
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98205b3cfd0a91c00800000000000000
+      internalID: 871904885794472585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1531
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a4a1fcb877ae4a0800000000000000
+      internalID: -6563302064580310452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1272
+        width: 205
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa66d8b3e5c4a110800000000000000
+      internalID: 1271358576674630390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_6
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1197
+        width: 245
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c480695f983b2ea80800000000000000
+      internalID: -8438985346626746292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_7
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1515
+        width: 335
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f071ea9af0e8201b0800000000000000
+      internalID: -5691830781120473329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1078
+        width: 164
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc7820a5b18acf20800000000000000
+      internalID: 3443707482154237147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1215
+        width: 192
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d61633d567f1340800000000000000
+      internalID: 4836714667485261192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_10
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1195
+        width: 204
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef18feae1db15e0800000000000000
+      internalID: -1937724407682040143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_11
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1499
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a49555c422a4400800000000000000
+      internalID: 309097235673074297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_12
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1387
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7152657578cae79f0800000000000000
+      internalID: -468747613914127081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_13
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1442
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb747f52df4396720800000000000000
+      internalID: 2839859301902141371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_14
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1447
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad0bee52a73b600800000000000000
+      internalID: 482863888395721261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_15
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1343
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5829a47c533dc60800000000000000
+      internalID: 7841670506248046039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_16
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1403
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a26577041566a8f0800000000000000
+      internalID: -529624769470569818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_17
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1378
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb252b6a51dd488f0800000000000000
+      internalID: -539062970316860737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_18
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1383
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a88ad208b961a60800000000000000
+      internalID: 7644468392332135017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_19
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1321
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbad3b8a4d44edf0800000000000000
+      internalID: -151911504864760868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_20
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1371
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72feab26acba3fa40800000000000000
+      internalID: 5400849263875518247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_21
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1373
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138303d7d91785b40800000000000000
+      internalID: 5429214272019249201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_22
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1371
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4928f3d1767db9130800000000000000
+      internalID: 3574687567120925332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_23
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1381
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b26032a3bf60180800000000000000
+      internalID: -9149349365842302184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_24
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1334
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64211167b1d24f0b0800000000000000
+      internalID: -5695878032748637626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_25
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1303
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec35ecf6ab1971a0800000000000000
+      internalID: -6811382557399761685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_26
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1282
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba33c66cd41543220800000000000000
+      internalID: 2464684290561815467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_27
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1303
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c154341bd25b0cc30800000000000000
+      internalID: 4377698045656253724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1283
+        width: 30
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899fe50c3a7658700800000000000000
+      internalID: 541953283172792728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_29
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1276
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2d06b87034ef590800000000000000
+      internalID: -7638594218291572019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_30
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1263
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e53f0ee981f2530800000000000000
+      internalID: 3832308878573526661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_31
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1279
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a919180c1fa93d0800000000000000
+      internalID: -3198978776183498114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_32
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1235
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f2fc59951fe70b0800000000000000
+      internalID: -5728876308900925549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_33
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1249
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875dde1fe49e3fd40800000000000000
+      internalID: 5617089685536757112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_34
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1248
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce488d469c0553900800000000000000
+      internalID: 663525346017576172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_35
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1263
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35904444ff610e030800000000000000
+      internalID: 3521840194221508947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_36
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1240
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756eec31699c2a200800000000000000
+      internalID: 189935780717586007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_37
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1236
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97413cfa7149e44e0800000000000000
+      internalID: -1995494755424594823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_38
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1127
+        width: 21
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b71273dab2ef410800000000000000
+      internalID: 1512694547797342981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_39
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1183
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7199fbfae0b5b8b80800000000000000
+      internalID: -8391513362038548201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_40
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1119
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd09ef38ee7c222f0800000000000000
+      internalID: -999016340092186401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_41
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1175
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d46112c21735a10800000000000000
+      internalID: 1896984302400720166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_42
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1110
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a5e6eab92fe7a60800000000000000
+      internalID: 7673837565546224247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_43
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1168
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d14939983dfc8ff0800000000000000
+      internalID: -32372677767773744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_44
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1147
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91a77272b7a7f500800000000000000
+      internalID: 429996674303631774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_45
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1152
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22483c732311d2d70800000000000000
+      internalID: 9019884536074568738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_46
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1112
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca95d99e13d0eb40800000000000000
+      internalID: 5467602076011174598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_47
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1114
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32f491ae60746c50800000000000000
+      internalID: 6657569769620042302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_48
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1107
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1275d63af836092c0800000000000000
+      internalID: -4426928965131872479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_49
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1102
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24416182ae99d14b0800000000000000
+      internalID: -5468045141583981502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 606
+        width: 214
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ba70f453de4590800000000000000
+      internalID: -7687975152109571052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_51
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 606
+        width: 214
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27fc64edf4c40b30800000000000000
+      internalID: 4252740542882707247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_52
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1078
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d80e004e7b2f3c0800000000000000
+      internalID: -4327194102054482603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_53
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1068
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9454bd7bbb2350140800000000000000
+      internalID: 4685206769173742921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_54
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1067
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93732f63b99563b70800000000000000
+      internalID: 8878382238584158009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_55
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1064
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8afcdfaabb56dd00800000000000000
+      internalID: 997085224881683084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_56
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1075
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6792f61fe3f2c3950800000000000000
+      internalID: 6430066315363297654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_57
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1044
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0debd1ea46d10b450800000000000000
+      internalID: 6102409813342142160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_58
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1023
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4910acb960df4c3d0800000000000000
+      internalID: -3187144431446130284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_59
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1070
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233bd94a3e4ee8680800000000000000
+      internalID: -8750805359563787470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_60
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1040
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9015f4290e8b9a30800000000000000
+      internalID: 4223125245515862170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_61
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1000
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff2b61484f38e380800000000000000
+      internalID: -8941827480576380930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_62
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 743
+        width: 199
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3520b22d28c785e0800000000000000
+      internalID: -1907335820987062977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_63
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 698
+        width: 254
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fb957dfa27f2050800000000000000
+      internalID: 5777962946497462126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_64
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 689
+        width: 248
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d331a7ed4cb576e30800000000000000
+      internalID: 4496663654056989501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_65
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1017
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9da6f500991dad00800000000000000
+      internalID: 985471999830044062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_66
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1010
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe61e2ceb8fc1710800000000000000
+      internalID: 1665479460417269489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_67
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1047
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6850be04f84c175b0800000000000000
+      internalID: -5372296760927779450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_68
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 990
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a89f18b0374ff90800000000000000
+      internalID: -6920780234099160571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_69
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1004
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fc41bc2e1d3ce30800000000000000
+      internalID: 4522689222810062743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_70
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 988
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b415f660634243a0800000000000000
+      internalID: -6682704815741135692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_71
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 791
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf634fdd037cbb970800000000000000
+      internalID: 8771823711930300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_72
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 963
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a37134033e424890800000000000000
+      internalID: -7475326450460953696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_73
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 971
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3582006784f92e00800000000000000
+      internalID: 1020615652844668221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_74
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 833
+        width: 287
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed4c8baf4d2790e0800000000000000
+      internalID: -2263290467526619669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_75
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 952
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391bb5e987f153750800000000000000
+      internalID: 6283963457978741139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_76
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 864
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f22dd03c80fc18d0800000000000000
+      internalID: -2874157977263332617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_77
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 914
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ca112cbfbcd5010800000000000000
+      internalID: 1179322959594105977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_78
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 906
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37ca7201a6a0a050800000000000000
+      internalID: 5809826729769486139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_79
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 898
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f9c6cea792f9790800000000000000
+      internalID: -7521247244756148358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_80
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 887
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1076d66cb368fc110800000000000000
+      internalID: 1283392010114131713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_81
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 882
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee393298b6afb9a0800000000000000
+      internalID: -6215065649090576661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_82
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 853
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117508998966197f0800000000000000
+      internalID: -607591669121919215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_83
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 797
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e56b5dd9e780870800000000000000
+      internalID: 8649302300725501446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_84
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 821
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a7630a931520f00800000000000000
+      internalID: 1081516168465250945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_85
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 789
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f5471c49af5470800000000000000
+      internalID: 8385607175460221405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_86
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 800
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c6d36454f2aeda0800000000000000
+      internalID: -5914863186020045716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_87
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 668
+        width: 84
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66f60a7ab9135080800000000000000
+      internalID: -9199981325085903254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_88
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 759
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4473550479f9af50800000000000000
+      internalID: 6893314981368132682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_89
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 767
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561820bf761211550800000000000000
+      internalID: 6129717298304549221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_90
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 741
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359196fd12dd7ffe0800000000000000
+      internalID: -1155211641845376685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_91
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 750
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc46d53c1b7f768a0800000000000000
+      internalID: -6311804009877510963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_92
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 748
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231514dd2379cf310800000000000000
+      internalID: 1440192225567920434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_93
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 673
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18455a58aa7263280800000000000000
+      internalID: -9064013586696416127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_94
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 737
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1648b64d0ae4ab700800000000000000
+      internalID: 556843956599227489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_95
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 703
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32a3c8ed8c875ae0800000000000000
+      internalID: -1560624204737174981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_96
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 679
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf509b4104cdee520800000000000000
+      internalID: 2733364191644157436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_97
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 709
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b0bb5f4e9f5c7f0800000000000000
+      internalID: -592793014158816437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_98
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 694
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71f27982408ee8f0800000000000000
+      internalID: -509328684584078980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_99
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 698
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141043abd3729f210800000000000000
+      internalID: 1367167107954114881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_100
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 682
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf59b1a01c7777a0800000000000000
+      internalID: -6379493936272416842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_101
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 697
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0466a3d9abe714d10800000000000000
+      internalID: 2108105440552969792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_102
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 659
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b74df0a035b537f0800000000000000
+      internalID: -633400952111675469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_103
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 675
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f7528d39869d9d0800000000000000
+      internalID: -2749051113337159787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_104
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 670
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af18cdeeb54245cb0800000000000000
+      internalID: -4876232519267352070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_105
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 617
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5554dca0a41edf60800000000000000
+      internalID: 8060903063366686044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_106
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 607
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc8fb395079012f0800000000000000
+      internalID: -1004136666694185733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_107
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 599
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b794ab4ec7886f40800000000000000
+      internalID: 5721972646676305845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_108
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 635
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60be78851ec67f40800000000000000
+      internalID: 5725990568127803501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_109
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 633
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf3c03ab99cfc2e0800000000000000
+      internalID: -2103240830666129465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_110
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 605
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493c988f09c736100800000000000000
+      internalID: 100060578819195796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_111
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 562
+        width: 69
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2655690d3e050c390800000000000000
+      internalID: -7800145615218387614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_112
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 621
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc14d85006dd465f0800000000000000
+      internalID: -764242632266399283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_113
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 611
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1384ed0d3d84cd610800000000000000
+      internalID: 1647271638290286641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_114
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 540
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da88d742f9154840800000000000000
+      internalID: 5207597072502000341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_115
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 540
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07744a8b774448600800000000000000
+      internalID: 469575542142945136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_116
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 583
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55536c6b3d973e640800000000000000
+      internalID: 5108060352579777877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_117
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 573
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e979e505705487490800000000000000
+      internalID: -7748367261175474274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_118
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 542
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fa0cc512f8472b0800000000000000
+      internalID: -5587683864207118568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_119
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 554
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cf91eabb83c9ef0800000000000000
+      internalID: -100142712978015215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 222
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba77e9e96ebc70b70800000000000000
+      internalID: 8865278582866212779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_121
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 56
+        width: 230
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0771448766ae310800000000000000
+      internalID: 1435072097995419843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_122
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 535
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbdfe22930b05cb0800000000000000
+      internalID: -4877204636996478016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_123
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 534
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788afeeb296313730800000000000000
+      internalID: 3977019949841361031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_124
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 533
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd76a382734012e0800000000000000
+      internalID: -2157150062396408379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_125
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 531
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8b8bf3636301f70800000000000000
+      internalID: 9155877649069422809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_126
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 520
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff060feee5f70d20800000000000000
+      internalID: 3244832463104905213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_127
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 209
+        width: 199
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f1dab1fa5887020800000000000000
+      internalID: 2339766993549074184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_128
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 131
+        width: 245
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617950c3d49c6a730800000000000000
+      internalID: 4010113851776669462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_129
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 58
+        width: 237
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7b2eeea1b285000800000000000000
+      internalID: 24817192627517382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_130
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 338
+        width: 264
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57cc7695e21e530800000000000000
+      internalID: 3882435315298498028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_131
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 513
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48009e7a731e98b00800000000000000
+      internalID: 831443235383083140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_132
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 448
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba386677fc07e9b80800000000000000
+      internalID: -8386141419753536597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_133
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 456
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84851e38dad344130800000000000000
+      internalID: 3550030221726013512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_134
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 379
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5383c0c93e2411a10800000000000000
+      internalID: 1878356064933263413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_135
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 419
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d030aec8cee8360800000000000000
+      internalID: 7173931346413423942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_136
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 330
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec9b75a5870ce8d0800000000000000
+      internalID: -2815867396425016093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_137
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 383
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93f88f1f51378d40800000000000000
+      internalID: 5586488147397112733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_138
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 392
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4cccfc175c05920800000000000000
+      internalID: 2977096446300177656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_139
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 389
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecb27635d8b46ea0800000000000000
+      internalID: -5880371987557991190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_140
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1
+        width: 123
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4099acdd236e103a0800000000000000
+      internalID: -6700821664406791932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_141
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 374
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e6a9906ed658270800000000000000
+      internalID: 8252122726997323390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_142
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 351
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6052d99d8b8bb760800000000000000
+      internalID: 7474721446838816874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_143
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 277
+        width: 151
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5318093d624b4fb0800000000000000
+      internalID: -4662559952336317601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_144
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 355
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b4c38f0267b9520800000000000000
+      internalID: 2709889484769217420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_145
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1
+        width: 87
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9a51644a52ed5f0800000000000000
+      internalID: -730104702106752556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_146
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 296
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499202e7b59606a60800000000000000
+      internalID: 7665242407463561620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_147
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 332
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca06ec67408d51e0800000000000000
+      internalID: -2207467198083626304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_148
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 154
+        width: 200
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b830ad29687c4c90800000000000000
+      internalID: -7184234912430409549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_149
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 263
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c745fd25647d4fc20800000000000000
+      internalID: 3239450729024279676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_150
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 239
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60255ef50cb22ef80800000000000000
+      internalID: -8078846676306669050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_151
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 169
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542dbd104d054b7f0800000000000000
+      internalID: -597763979038961083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_152
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 161
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73f5fe44f3476ee0800000000000000
+      internalID: -1267970053505682563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_153
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1
+        width: 157
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fd2d687a187d270800000000000000
+      internalID: 8275225396838063875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_154
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 133
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae682eda41508470800000000000000
+      internalID: 8394799087415226023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_155
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 141
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a730c9c1dcf292f70800000000000000
+      internalID: 9162907474856772474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_156
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 125
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbcbdaf04194df90800000000000000
+      internalID: -6929754218343707652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_157
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 139
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60dc9b603b4e7e80800000000000000
+      internalID: -8179017201922289556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_158
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 61
+        width: 21
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce3e3c216971cfd0800000000000000
+      internalID: -2323442474485399870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_159
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 73
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1640cf58b937970800000000000000
+      internalID: 8751509500672106941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_160
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 111
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c9a7f145c0ba5f0800000000000000
+      internalID: -744487757954769911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_161
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 83
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1051d9012f305b0800000000000000
+      internalID: -5403208974745665092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_162
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 76
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e416fd1eb7ebf24d0800000000000000
+      internalID: -3157095374483660466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_163
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 69
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa0bb18af0283df0800000000000000
+      internalID: -200373923127555416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_164
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 20
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1319cd2ff0f596420800000000000000
+      internalID: 2623732780023714097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_165
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 18
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295b4569b804271e0800000000000000
+      internalID: -2201626299563985518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_166
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 53
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fec4516daa704db0800000000000000
+      internalID: -4809709516950810891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_167
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b708275f48faf40800000000000000
+      internalID: 5741954239643548558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_168
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e815ce4a56ebc3e0800000000000000
+      internalID: -2032277531284662047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_169
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e8d50b274a4d570800000000000000
+      internalID: 8490592009992375904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_170
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9eb4d36ab129730800000000000000
+      internalID: 4004293419492698575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_171
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 19
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3f898560777dde0800000000000000
+      internalID: -1308446297587911754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_172
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58f6facb08e97ba0800000000000000
+      internalID: -6090581883694417828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockthing_173
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3877b06418bfa1cf0800000000000000
+      internalID: -280635494112725117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rockthing_0: 6824016238274474226
+      rockthing_1: -1177762698697067768
+      rockthing_10: -1937724407682040143
+      rockthing_100: -6379493936272416842
+      rockthing_101: 2108105440552969792
+      rockthing_102: -633400952111675469
+      rockthing_103: -2749051113337159787
+      rockthing_104: -4876232519267352070
+      rockthing_105: 8060903063366686044
+      rockthing_106: -1004136666694185733
+      rockthing_107: 5721972646676305845
+      rockthing_108: 5725990568127803501
+      rockthing_109: -2103240830666129465
+      rockthing_11: 309097235673074297
+      rockthing_110: 100060578819195796
+      rockthing_111: -7800145615218387614
+      rockthing_112: -764242632266399283
+      rockthing_113: 1647271638290286641
+      rockthing_114: 5207597072502000341
+      rockthing_115: 469575542142945136
+      rockthing_116: 5108060352579777877
+      rockthing_117: -7748367261175474274
+      rockthing_118: -5587683864207118568
+      rockthing_119: -100142712978015215
+      rockthing_12: -468747613914127081
+      rockthing_120: 8865278582866212779
+      rockthing_121: 1435072097995419843
+      rockthing_122: -4877204636996478016
+      rockthing_123: 3977019949841361031
+      rockthing_124: -2157150062396408379
+      rockthing_125: 9155877649069422809
+      rockthing_126: 3244832463104905213
+      rockthing_127: 2339766993549074184
+      rockthing_128: 4010113851776669462
+      rockthing_129: 24817192627517382
+      rockthing_13: 2839859301902141371
+      rockthing_130: 3882435315298498028
+      rockthing_131: 831443235383083140
+      rockthing_132: -8386141419753536597
+      rockthing_133: 3550030221726013512
+      rockthing_134: 1878356064933263413
+      rockthing_135: 7173931346413423942
+      rockthing_136: -2815867396425016093
+      rockthing_137: 5586488147397112733
+      rockthing_138: 2977096446300177656
+      rockthing_139: -5880371987557991190
+      rockthing_14: 482863888395721261
+      rockthing_140: -6700821664406791932
+      rockthing_141: 8252122726997323390
+      rockthing_142: 7474721446838816874
+      rockthing_143: -4662559952336317601
+      rockthing_144: 2709889484769217420
+      rockthing_145: -730104702106752556
+      rockthing_146: 7665242407463561620
+      rockthing_147: -2207467198083626304
+      rockthing_148: -7184234912430409549
+      rockthing_149: 3239450729024279676
+      rockthing_15: 7841670506248046039
+      rockthing_150: -8078846676306669050
+      rockthing_151: -597763979038961083
+      rockthing_152: -1267970053505682563
+      rockthing_153: 8275225396838063875
+      rockthing_154: 8394799087415226023
+      rockthing_155: 9162907474856772474
+      rockthing_156: -6929754218343707652
+      rockthing_157: -8179017201922289556
+      rockthing_158: -2323442474485399870
+      rockthing_159: 8751509500672106941
+      rockthing_16: -529624769470569818
+      rockthing_160: -744487757954769911
+      rockthing_161: -5403208974745665092
+      rockthing_162: -3157095374483660466
+      rockthing_163: -200373923127555416
+      rockthing_164: 2623732780023714097
+      rockthing_165: -2201626299563985518
+      rockthing_166: -4809709516950810891
+      rockthing_167: 5741954239643548558
+      rockthing_168: -2032277531284662047
+      rockthing_169: 8490592009992375904
+      rockthing_17: -539062970316860737
+      rockthing_170: 4004293419492698575
+      rockthing_171: -1308446297587911754
+      rockthing_172: -6090581883694417828
+      rockthing_173: -280635494112725117
+      rockthing_18: 7644468392332135017
+      rockthing_19: -151911504864760868
+      rockthing_2: 5383133624832052326
+      rockthing_20: 5400849263875518247
+      rockthing_21: 5429214272019249201
+      rockthing_22: 3574687567120925332
+      rockthing_23: -9149349365842302184
+      rockthing_24: -5695878032748637626
+      rockthing_25: -6811382557399761685
+      rockthing_26: 2464684290561815467
+      rockthing_27: 4377698045656253724
+      rockthing_28: 541953283172792728
+      rockthing_29: -7638594218291572019
+      rockthing_3: 871904885794472585
+      rockthing_30: 3832308878573526661
+      rockthing_31: -3198978776183498114
+      rockthing_32: -5728876308900925549
+      rockthing_33: 5617089685536757112
+      rockthing_34: 663525346017576172
+      rockthing_35: 3521840194221508947
+      rockthing_36: 189935780717586007
+      rockthing_37: -1995494755424594823
+      rockthing_38: 1512694547797342981
+      rockthing_39: -8391513362038548201
+      rockthing_4: -6563302064580310452
+      rockthing_40: -999016340092186401
+      rockthing_41: 1896984302400720166
+      rockthing_42: 7673837565546224247
+      rockthing_43: -32372677767773744
+      rockthing_44: 429996674303631774
+      rockthing_45: 9019884536074568738
+      rockthing_46: 5467602076011174598
+      rockthing_47: 6657569769620042302
+      rockthing_48: -4426928965131872479
+      rockthing_49: -5468045141583981502
+      rockthing_5: 1271358576674630390
+      rockthing_50: -7687975152109571052
+      rockthing_51: 4252740542882707247
+      rockthing_52: -4327194102054482603
+      rockthing_53: 4685206769173742921
+      rockthing_54: 8878382238584158009
+      rockthing_55: 997085224881683084
+      rockthing_56: 6430066315363297654
+      rockthing_57: 6102409813342142160
+      rockthing_58: -3187144431446130284
+      rockthing_59: -8750805359563787470
+      rockthing_6: -8438985346626746292
+      rockthing_60: 4223125245515862170
+      rockthing_61: -8941827480576380930
+      rockthing_62: -1907335820987062977
+      rockthing_63: 5777962946497462126
+      rockthing_64: 4496663654056989501
+      rockthing_65: 985471999830044062
+      rockthing_66: 1665479460417269489
+      rockthing_67: -5372296760927779450
+      rockthing_68: -6920780234099160571
+      rockthing_69: 4522689222810062743
+      rockthing_7: -5691830781120473329
+      rockthing_70: -6682704815741135692
+      rockthing_71: 8771823711930300156
+      rockthing_72: -7475326450460953696
+      rockthing_73: 1020615652844668221
+      rockthing_74: -2263290467526619669
+      rockthing_75: 6283963457978741139
+      rockthing_76: -2874157977263332617
+      rockthing_77: 1179322959594105977
+      rockthing_78: 5809826729769486139
+      rockthing_79: -7521247244756148358
+      rockthing_8: 3443707482154237147
+      rockthing_80: 1283392010114131713
+      rockthing_81: -6215065649090576661
+      rockthing_82: -607591669121919215
+      rockthing_83: 8649302300725501446
+      rockthing_84: 1081516168465250945
+      rockthing_85: 8385607175460221405
+      rockthing_86: -5914863186020045716
+      rockthing_87: -9199981325085903254
+      rockthing_88: 6893314981368132682
+      rockthing_89: 6129717298304549221
+      rockthing_9: 4836714667485261192
+      rockthing_90: -1155211641845376685
+      rockthing_91: -6311804009877510963
+      rockthing_92: 1440192225567920434
+      rockthing_93: -9064013586696416127
+      rockthing_94: 556843956599227489
+      rockthing_95: -1560624204737174981
+      rockthing_96: 2733364191644157436
+      rockthing_97: -592793014158816437
+      rockthing_98: -509328684584078980
+      rockthing_99: 1367167107954114881
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
