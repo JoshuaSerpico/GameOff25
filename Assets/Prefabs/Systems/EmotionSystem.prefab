@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2955185673087976347}
   - component: {fileID: 78143817786536635}
-  - component: {fileID: -1628387303609980393}
   m_Layer: 0
   m_Name: EmotionSystem
   m_TagString: Untagged
@@ -62,15 +61,3 @@ MonoBehaviour:
     ControlDecayRate: 0.01
     ConnectionDecayRate: 0.01
   influenceChannel: {fileID: 11400000, guid: 5b924ab903470764f9ead73a1174c793, type: 2}
---- !u!114 &-1628387303609980393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332597171658822312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e04fa40c4421a849af518065abad72f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
