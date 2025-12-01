@@ -14,11 +14,6 @@ namespace Platformer.Player.Emotions
         public virtual void Enter()
         {
             ApplyEffects();
-
-            if (data.Duration > 0)
-            {
-                emotionSystem.StartTimer(data.Duration, () => emotionSystem.SetNeutral());
-            }
         }
 
         public virtual void Exit()

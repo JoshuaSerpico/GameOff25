@@ -4,8 +4,7 @@ namespace Platformer.Player.Emotions
 {
     public class SitSystem : MonoBehaviour
     {
-        [SerializeField] private EmotionEventChannel emotionEventChannel;
-        [SerializeField] private EmotionType resultEmotion = EmotionType.Neutral;
+        [SerializeField] private EmotionSystem emotionSystem;
         [SerializeField] private KeyCode sitKey = KeyCode.S;
         [Tooltip("Time in seconds the player must sit to calm down.")]
         [SerializeField] private float calmDuration = 2f;
@@ -40,7 +39,16 @@ namespace Platformer.Player.Emotions
 
         private void CalmEmotion()
         {
-            emotionEventChannel.RaiseEvent(resultEmotion);
+            EmotionInfluence calmInfluence = new EmotionInfluence
+            {
+                dValence = 0.1f,
+                dArousal = -0.3f,
+                dControl = +0.05f,
+                dConnection = 0f
+            };
+
+            if (emotionSystem != null)
+                emotionSystem.ApplyInfluence(calmInfluence);
         }
     }
 }

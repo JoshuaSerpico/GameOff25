@@ -1,24 +1,38 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Platformer.Player.Emotions
 {
     public class EmotionSystem : MonoBehaviour
     {
+        public static EmotionSystem Instance;
+        
+        [Header("External Emotions")]
+        public string CurrentEmotion = "Neutral";
         [SerializeField] private List<EmotionData> emotionDataList;
-        [SerializeField] private EmotionEventChannel channel;
         [SerializeField] private PlayerController player;
+
+        [Header("Internal Emotions")]
+        [SerializeField] private InternalEmotionState internalState = new InternalEmotionState();
+        [SerializeField] private EmotionInfluenceEventChannel influenceChannel;
 
         private EmotionState currentState;
         private Dictionary<EmotionType, EmotionState> states = new();
-        private Coroutine timerRoutine;
 
         public PlayerController Player => player;
 
         private void Awake()
         {
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else if (Instance != this)
+            {
+                Destroy(gameObject);
+            }
+
             foreach (var data in emotionDataList)
             {
                 states[data.Type] = new EmotionState(this, data);
@@ -29,14 +43,29 @@ namespace Platformer.Player.Emotions
 
         private void OnEnable()
         {
-            channel.OnEventRaised += OnEmotionTriggered;
+            if (influenceChannel != null)
+                influenceChannel.OnEventRaised += ApplyInfluence;
         }
 
         private void OnDisable()
         {
-            channel.OnEventRaised -= OnEmotionTriggered;
+            if (influenceChannel != null)
+                influenceChannel.OnEventRaised -= ApplyInfluence;
         }
 
+        private void Update()
+        {
+            // Update internal emotion axes (decay/normalization)
+            internalState.Update(Time.deltaTime);
+
+            // Map internal emotions → outward emotion type
+            UpdateOutwardEmotion();
+
+            // Update the current external state
+            currentState?.Update();
+        }
+
+        #region External Emotion Methods
         public void SetEmotion(EmotionType type)
         {
             if (!states.ContainsKey(type))
@@ -49,29 +78,43 @@ namespace Platformer.Player.Emotions
             currentState = states[type];
             currentState.Enter();
 
-            Debug.Log($"Emotion changed to {type}");
+            CurrentEmotion = type.ToString();
+
+            Debug.Log($"Outward emotion changed to {type}");
         }
 
         public void SetNeutral() => SetEmotion(EmotionType.Neutral);
 
-        public void StartTimer(float seconds, Action callback)
-        {
-            if (timerRoutine != null) StopCoroutine(timerRoutine);
-            timerRoutine = StartCoroutine(Timer(seconds, callback));
-        }
+        #endregion
 
-        private void OnEmotionTriggered(EmotionType type)
+        #region Internal Emotion Methods
+        private void UpdateOutwardEmotion()
         {
-            SetEmotion(type);
-        }
+            // Example mapping rules (tune these later)
+            EmotionType newEmotion = EmotionType.Neutral;
 
-        private IEnumerator Timer(float t, Action cb)
+            if (internalState.Valence < 0.35f && internalState.Arousal > 0.65f && internalState.Control > 0.5f)
+                newEmotion = EmotionType.Angry;
+
+            else if (internalState.Valence < 0.4f && internalState.Arousal < 0.4f)
+                newEmotion = EmotionType.Sad;
+
+            else if (internalState.Valence > 0.7f && internalState.Arousal > 0.7f)
+                newEmotion = EmotionType.Excited;
+
+            // Only change external state if it’s different
+            if (currentState == null || currentState != states[newEmotion])
+            {
+                SetEmotion(newEmotion);
+            }
+        }
+        #endregion
+
+        #region Public Influence Method
+        public void ApplyInfluence(EmotionInfluence influence)
         {
-            yield return new WaitForSeconds(t);
-            cb?.Invoke();
+            internalState.ApplyInfluence(influence);
         }
-
-        private void Update() => currentState.Update();
+        #endregion
     }
-
 }

@@ -94,7 +94,7 @@ public class EnemyController : MonoBehaviour
     private void UpdateDirection()
     {
         float direction = Mathf.Sign(horizontalInput);
-        Debug.Log(direction);
+        //Debug.Log(direction);
         transform.localScale = new Vector3(direction, 1, 1);
     }
 

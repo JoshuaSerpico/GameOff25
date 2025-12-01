@@ -6,9 +6,12 @@ namespace Platformer.Player.Emotions
     public class EmotionData : ScriptableObject
     {
         public EmotionType Type;
-        [Tooltip("Duration of this emotion in seconds. Set to 0 for persistent states like Neutral.")]
-        public float Duration = 0f;
+
+        [Header("Gameplay Modifiers")]
+        [Tooltip("Multiplier applied to player movement speed when this outward emotion is active. Default is 1 (no change).")]
         public float MovementSpeedModifier = 1f;
+
+        [Tooltip("If true, player movement becomes erratic while this emotion is active.")]
         public bool IsErratic = false;
     }
 }
