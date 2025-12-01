@@ -47,14 +47,14 @@ TagManager:
   - name: Enemies
     uniqueID: 3768425949
     locked: 0
+  - name: Foreground
+    uniqueID: 2863670271
+    locked: 0
   - name: Monster
     uniqueID: 709549793
     locked: 0
   - name: Player
     uniqueID: 3379637881
-    locked: 0
-  - name: Foreground
-    uniqueID: 2863670271
     locked: 0
   m_RenderingLayers:
   - Default

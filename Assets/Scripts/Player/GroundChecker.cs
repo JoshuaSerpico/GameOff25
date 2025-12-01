@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GroundChecker : MonoBehaviour
 {
-    [SerializeField] private BoxCollider2D checkCollider;
+    [SerializeField] private CapsuleCollider2D checkCollider;
     [SerializeField] private LayerMask groundMask;
 
     public bool IsGrounded { get; private set; }

@@ -4480,10 +4480,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1862466290973834851, guid: ea645544f7b11ca408e601351d9fd67d, type: 3}
-      propertyPath: drag
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 4772884044249841289, guid: ea645544f7b11ca408e601351d9fd67d, type: 3}
       propertyPath: m_Name
       value: MC_Rigged
@@ -4545,26 +4541,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snail
       objectReference: {fileID: 0}
-    - target: {fileID: 1430887814696552270, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3711117318009768267, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4832525033316471096, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5612481838642127426, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5634502279031856358, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 5890977010762004581, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4604,10 +4580,6 @@ PrefabInstance:
     - target: {fileID: 5890977010762004581, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7426552029779782673, guid: c03fd164abfbc3743af7cde4481891ee, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
