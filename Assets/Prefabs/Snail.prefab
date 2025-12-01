@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7119416540957886062}
   - component: {fileID: 1773582436526668545}
   - component: {fileID: 7859300306095314685}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3915735732774728619}
   - component: {fileID: 4408038500195006166}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7510114950048349121}
   - component: {fileID: 8949559058752716067}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eyes_Closed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2492631684823691533}
   - component: {fileID: 4624468051546900741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4251839979565512381}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SnailSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099876701529991363}
   - component: {fileID: 4563729404934514217}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
