@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Platformer.Player.Emotions
 {
     public class EmotionSystem : MonoBehaviour
     {
+        public static EmotionSystem Instance;
+        
         [Header("External Emotions")]
+        public string CurrentEmotion = "Neutral";
         [SerializeField] private List<EmotionData> emotionDataList;
         [SerializeField] private PlayerController player;
 
@@ -22,6 +23,16 @@ namespace Platformer.Player.Emotions
 
         private void Awake()
         {
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else if (Instance != this)
+            {
+                Destroy(gameObject);
+            }
+
             foreach (var data in emotionDataList)
             {
                 states[data.Type] = new EmotionState(this, data);
@@ -66,6 +77,8 @@ namespace Platformer.Player.Emotions
             currentState?.Exit();
             currentState = states[type];
             currentState.Enter();
+
+            CurrentEmotion = type.ToString();
 
             Debug.Log($"Outward emotion changed to {type}");
         }
