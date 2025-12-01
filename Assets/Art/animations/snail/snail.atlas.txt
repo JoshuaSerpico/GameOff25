@@ -1,0 +1,14 @@
+snail.png
+size:332,260
+filter:Linear,Linear
+eyes_closed
+bounds:248,235,57,21
+offsets:1,2,60,24
+head
+bounds:2,18,152,188
+rotate:90
+leg
+bounds:2,172,244,84
+shell
+bounds:192,2,168,136
+rotate:90

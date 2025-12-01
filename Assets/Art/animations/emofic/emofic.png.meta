@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: fb74b2d7acb71fc4ea72b2c24c4873f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8239506768880563603
+    second: emofic_0
+  - first:
+      213: -4512309358683658137
+    second: emofic_1
+  - first:
+      213: -383504347358379659
+    second: emofic_2
+  - first:
+      213: 2364768368491502026
+    second: emofic_3
+  - first:
+      213: -1445136736471376532
+    second: emofic_4
+  - first:
+      213: -2292920335361156454
+    second: emofic_5
+  - first:
+      213: -3075102079150312363
+    second: emofic_6
+  - first:
+      213: -7154323828060110169
+    second: emofic_7
+  - first:
+      213: -3559340158935113173
+    second: emofic_8
+  - first:
+      213: -3198180640738647757
+    second: emofic_9
+  - first:
+      213: 1473935102882841179
+    second: emofic_10
+  - first:
+      213: 998902460709879976
+    second: emofic_11
+  - first:
+      213: -1269527861095353027
+    second: emofic_12
+  - first:
+      213: -875024799319751115
+    second: emofic_13
+  - first:
+      213: 652540573404290839
+    second: emofic_14
+  - first:
+      213: 8364808623236992745
+    second: emofic_15
+  - first:
+      213: -4659892930152746347
+    second: emofic_16
+  - first:
+      213: 9203479727462700318
+    second: emofic_17
+  - first:
+      213: -7451400346754030999
+    second: emofic_18
+  - first:
+      213: -3549550060331892268
+    second: emofic_19
+  - first:
+      213: 1391442747344084423
+    second: emofic_20
+  - first:
+      213: -4358647163916804145
+    second: emofic_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: emofic_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 628
+        width: 475
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a827c9f3467ad80800000000000000
+      internalID: -8239506768880563603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 607
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7686df6ab8e0161c0800000000000000
+      internalID: -4512309358683658137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 628
+        width: 475
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571c2e5f3d48daaf0800000000000000
+      internalID: -383504347358379659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 605
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac914045d4851d020800000000000000
+      internalID: 2364768368491502026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_4
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 601
+        width: 331
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d91ca7bc7d1fbe0800000000000000
+      internalID: -1445136736471376532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_5
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 578
+        width: 524
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a57887a19ed20e0800000000000000
+      internalID: -2292920335361156454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_6
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 568
+        width: 130
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5543e2c93fa0355d0800000000000000
+      internalID: -3075102079150312363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 604
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a24d54326cb6bc90800000000000000
+      internalID: -7154323828060110169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2
+        width: 578
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e3efcbfeaa9ec0800000000000000
+      internalID: -3559340158935113173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_9
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 601
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331ed35e6a7cd93d0800000000000000
+      internalID: -3198180640738647757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_10
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 603
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b528f45ba28747410800000000000000
+      internalID: 1473935102882841179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 605
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a040efde70dcdd00800000000000000
+      internalID: 998902460709879976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_12
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 2
+        width: 551
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3533f6f22bb16ee0800000000000000
+      internalID: -1269527861095353027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_13
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 435
+        width: 184
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53683e2c4994bd3f0800000000000000
+      internalID: -875024799319751115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_14
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 423
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fda47b13a4e0900800000000000000
+      internalID: 652540573404290839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_15
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 403
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee4a2acf15c51470800000000000000
+      internalID: 8364808623236992745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_16
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 402
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59234e6b11cb45fb0800000000000000
+      internalID: -4659892930152746347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_17
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 407
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e155ceccc0459bf70800000000000000
+      internalID: 9203479727462700318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_18
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 292
+        width: 167
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962e0842dde479890800000000000000
+      internalID: -7451400346754030999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_19
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 347
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d18375c6077dbec0800000000000000
+      internalID: -3549550060331892268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_20
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 292
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cddcb87ec56f4310800000000000000
+      internalID: 1391442747344084423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emofic_21
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2
+        width: 240
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf997d5f79f283c0800000000000000
+      internalID: -4358647163916804145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      emofic_0: -8239506768880563603
+      emofic_1: -4512309358683658137
+      emofic_10: 1473935102882841179
+      emofic_11: 998902460709879976
+      emofic_12: -1269527861095353027
+      emofic_13: -875024799319751115
+      emofic_14: 652540573404290839
+      emofic_15: 8364808623236992745
+      emofic_16: -4659892930152746347
+      emofic_17: 9203479727462700318
+      emofic_18: -7451400346754030999
+      emofic_19: -3549550060331892268
+      emofic_2: -383504347358379659
+      emofic_20: 1391442747344084423
+      emofic_21: -4358647163916804145
+      emofic_3: 2364768368491502026
+      emofic_4: -1445136736471376532
+      emofic_5: -2292920335361156454
+      emofic_6: -3075102079150312363
+      emofic_7: -7154323828060110169
+      emofic_8: -3559340158935113173
+      emofic_9: -3198180640738647757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
